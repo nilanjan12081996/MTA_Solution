@@ -5,8 +5,9 @@ import PlanSlice from '../reducers/PlanSlice';
 import MyProfileSlice from '../reducers/MyProfileSlice';
 import PaymentSlice from '../reducers/PaymentSlice';
 import ContactSlice from '../reducers/ContactSlice';
-import ServiceProviderSlice from '../reducers/ServiceProviderSlice'
-import WholeSalerSlice from '../reducers/WholeSalerSlice'
+import ServiceProviderSlice from '../reducers/ServiceProviderSlice';
+import WholeSalerSlice from '../reducers/WholeSalerSlice';
+import CreateCharacterSlice from '../reducers/CreateCharacterSlice';
 
 const store = configureStore({
   reducer: {
@@ -17,7 +18,8 @@ const store = configureStore({
     payment: PaymentSlice,
     contact: ContactSlice,
     serviceProviders: ServiceProviderSlice,
-    wholeSalers: WholeSalerSlice
+    wholeSalers: WholeSalerSlice,
+    createcharacter:CreateCharacterSlice
   },
   devTools: import.meta.env.DEV,
 });

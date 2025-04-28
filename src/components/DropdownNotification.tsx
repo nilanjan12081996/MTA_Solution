@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlineBell } from "react-icons/ai";
-
 import { useSelector } from "react-redux";
 
 const DropdownNotification = () => {

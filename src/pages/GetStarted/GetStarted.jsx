@@ -77,7 +77,7 @@ const GetStarted = () => {
       <div className="hidden">
         <div className="flex">
           <div className="w-5/12 rounded-r-xl overflow-hidden">
-            <img src={getStartBanner01} alt="getStartBanner01" />
+            <img src={getStartBanner01} alt="getStartBanner01"/>
           </div>
           <div className="w-7/12 p-20">
             <div className="progress_bar_area">
